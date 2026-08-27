@@ -4,7 +4,7 @@ from flask import Flask
 from threading import Thread
 
 # سحب التوكن تلقائياً من إعدادات البيئة في المنصة للأمان
-TOKEN = os.environ.get('BOT_TOKEN')
+TOKEN = "8542925328:AAEGzXEmJEQUUP9bKk7Pa6piO7ftBUn735k"
 bot = telebot.TeleBot(TOKEN)
 
 # سيرفر ويب بسيط لكي يبقى البوت نشطاً 24/7 ولا ينام
